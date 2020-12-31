@@ -1,0 +1,86 @@
+html, body, h2{ margin: 0;}
+button{ outline: none; cursor: pointer;}
+ul li{ list-style: none;}
+a{ text-decoration: none; color: #000000;}
+.hide{ position: absolute; left: -5000px;}
+
+/*header*/
+.headerCon{width: 980px; margin: 40px auto 24px; top: 0; position: relative; height: 26px;}
+.headerCon h2{background: url(../img/renew-logo.png) no-repeat;}
+.headerCon h2 a{ color: transparent;}
+.headerCon .button{ display: flex; position: absolute; top: 0; left: 140px; width: 142px; margin-top: 5px;}
+.headerCon .button button{ font-size: 12px; background: #fff; font-weight: bold; border: .5px solid #d3d3d3;}
+.headerCon ul{ display: flex; justify-content: flex-end; position: relative; top: -48px; }
+.headerCon ul li{ margin-left: 25px; line-height: 26px; height: 26px;}
+.headerCon ul li a{ font-size: 16px; font-weight: bold; color: #000000;}
+.headerCon ul li:nth-child(6) a img{ width: 19px; height: 19px; padding-top: 3px;}
+.headerCon ul li:nth-child(7) a img{ width: 27px; height: 26px;}
+
+/*main*/
+.main{width: 100%; height: 450px; background: #f0f5f9; top: 0;}
+.mainCon{ width: 980px; position: relative; left: 50%; transform: translateX(-50%);}
+.mainCon .mainImg img{ width: 1660px; position: relative; left: -50%; margin-left: 120px;}
+.mainCon .mainImg .imgTxt{ position: absolute; top: 107px; left: 170px;}
+.mainCon .mainImg .imgTxt img{ width: 370px; height: 170px;}
+.mainCon .mainImg .imgTxt button{ width: 142px; height: 42px; left: -120px; position: absolute; bottom: -50px; background: none;  border: 1px solid #70797e; font-size: 15px; font-weight: bold; transition: all .2s;}
+.mainCon .mainImg .imgTxt button:hover{ background: #747b81; color: #fff; }
+.mainCon ul{ display: flex; position: absolute; bottom: -90px; left: -40px; }
+.mainCon ul li{ background: #159cd8; width: 162px; height: 150px; position: relative; border: 0.1px solid rgba(173, 173, 173, 0.3);}
+.mainCon ul li:hover, .mainCon ul li:hover a{ background: #fff; color: #000000;} 
+.mainCon ul li a{ color: #fff; top: 50%; transform: translateY(-50%); position: absolute; width: 100%; text-align: center; height: 150px; padding-top: 25px; box-sizing: border-box;}
+.mainCon ul li a span{ display: block; font-size: 15px; width: 100%;}
+
+/*content*/
+.content{ width: 100%;}
+.contentCon{ width: 980px; height: 544px; margin: 120px auto 0; position: relative;}
+.contentCon .eventBox{ height: 240px; margin-top: 55px; position: relative;}
+.contentCon .eventBox .con1{ width: 586px; height: 238px; border: 1px solid #d3d3d3; overflow: hidden; position: relative;}
+.contentCon .eventBox .con1 img{ width: 100%; height: 100%; left: 0; position: absolute; top: 0;}
+.contentCon .eventBox .con2{ width: 366px; height: 238px; margin-left: 24px; border: 1px solid #d3d3d3; position: absolute; right: 0; top: 0;}
+.contentCon .infoBox{ height: 259px; margin-top: 45px; position: relative;}
+.contentCon .infoBox h2{ font-size: 20px; margin-bottom: 30px;}
+.contentCon .infoBox .con3{width: 586px; height: 197px; text-align: center; }
+.contentCon .infoBox .con3 ul{ display: flex;  position: relative; padding: 0; top: 10px;}
+.contentCon .infoBox .con3 ul:after{ content: ""; width: 1px; height: 197px; background: #e9e9e9; right: 0; position: absolute; top: -65px;}
+.contentCon .infoBox .con3 ul li{margin: 0 30px 0 25px; width: 142px;}
+.contentCon .infoBox .con3 ul li:before{ content: ""; width: 108px; height: 108px; border-radius: 50%; background: #f2f4f6; position: absolute; left: 3.5%;top: -15px; z-index: -1;}
+.contentCon .infoBox .con3 ul li:nth-child(2):before{ left: 28.5%;}
+.contentCon .infoBox .con3 ul li:nth-child(3):before{ left: 52.5%;}
+.contentCon .infoBox .con3 ul li:nth-child(4):before{ left: 77.5%;}
+.contentCon .infoBox .con3 ul li a span{ font-size: 15px; margin-top: 30px; display: block;}
+.contentCon .infoBox .con4{width: 393px; height: 259px; position: absolute; top: 0; right: 0; text-align: center;}
+.contentCon .infoBox .con4 ul{ display: flex; flex-wrap: wrap; padding: 0; margin-left: 30px;}
+.contentCon .infoBox .con4 ul li{ width: 177px; height: 36px; text-align: left; padding-left: 20px; box-sizing: border-box; position: relative;}
+.contentCon .infoBox .con4 ul li a{ font-size: 14px; color: #585858;}
+.contentCon .infoBox .con4 ul li:before{ position: absolute; left: 0; content: url(../img/bul_quick.png); top: 3px;}
+
+/*product*/
+.productCon{ width: 100%; height: 410px; padding: 38px 0 50px; position: relative; text-align: center; background: #f5f5f5; box-sizing: border-box;}
+.productCon h2{ font-size: 22px; padding-bottom: 36px;}
+.productCon ul{ display: flex; width: 980px; margin: 0 auto; padding-left: 0; overflow: hidden;}
+.productCon ul li a{ font-size: 16px; font-weight: bold;  top: 25px; position: relative;}
+.productCon ul li a img{ margin: 0 10.5px;}
+.productCon ul li a span{ position: absolute; left: 50%; top: -62px; transform: translateX(-50%); width: 100%; display: block; background: #fff; width: 225px; transition: all .6s; padding-top: 20px;}
+.productCon ul li a span p{ margin: 0; padding: 30px 0 20px 0; font-size: 14px; color: #585858; font-weight: normal;}
+.productCon ul li:hover a span{ top: -124px;}
+
+/*info*/
+.infoCon{ width: 980px; height: 196px; margin: 45px auto 0; text-align: center; position: relative;}
+.infoCon .mainInfo{ position: relative; left: 0; top: 0; width: 586px; height: 188px; }
+.infoCon .mainInfo ul{ display: flex; position: relative; padding: 0; top: 50px;}
+.infoCon .mainInfo ul:after{ content: ""; width: 1px; height: 188px; background: #e9e9e9; right: 0; position: absolute; top: -35px;}
+.infoCon .mainInfo ul li a span{ font-size: 15px; margin-top: 30px; display: block;}
+.infoCon .mainInfo ul li:before{ content: ""; position: absolute; width: 108px; height: 108px; border-radius: 50%; border: 1px solid #eee; left: 1.5%; top: -15px;}
+.infoCon .mainInfo ul li:nth-child(2):before{ left: 29%;}
+.infoCon .mainInfo ul li:nth-child(3):before{ left: 55%;}
+.infoCon .mainInfo ul li:nth-child(4):before{ left: 78.5%;}
+.infoCon .mainInfo ul li{margin: 0 30px 0 25px; bottom: 0;}
+.infoCon .newInfo{ position: absolute; right: 0; top: 0; width: 392px; height: 196px;}
+.infoCon .newInfo h2{ font-size: 20px;}
+.infoCon .newInfo ul{ margin: 0 0 0 35px; padding: 40px 0 0 0; text-align: left; box-sizing: border-box; position: relative;}
+.infoCon .newInfo ul li{ padding: 6px; box-sizing: border-box;}
+.infoCon .newInfo ul li a{font-size: 14px;  padding-left: 10px;}
+.infoCon .newInfo ul li:before{ content:""; width: 8px; height: 8px; position: absolute; left: 0; top: 30%; background: #959595; border-radius: 50%;}
+.infoCon .newInfo ul li:nth-child(2):before{top: 50%;}
+.infoCon .newInfo ul li:nth-child(3):before{top: 70%;}
+.infoCon .newInfo ul li:nth-child(4):before{top: 90%;}
