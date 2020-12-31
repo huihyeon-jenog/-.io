@@ -65,7 +65,7 @@ a{ text-decoration: none; color: #000000;}
 .productCon ul li:hover a span{ top: -124px;}
 
 /*info*/
-.infoCon{ width: 980px; height: 196px; margin: 45px auto 0; text-align: center; position: relative;}
+.infoCon{ width: 980px; height: 196px; margin: 45px auto 100px; text-align: center; position: relative;}
 .infoCon .mainInfo{ position: relative; left: 0; top: 0; width: 586px; height: 188px; }
 .infoCon .mainInfo ul{ display: flex; position: relative; padding: 0; top: 50px;}
 .infoCon .mainInfo ul:after{ content: ""; width: 1px; height: 188px; background: #e9e9e9; right: 0; position: absolute; top: -35px;}
@@ -84,3 +84,23 @@ a{ text-decoration: none; color: #000000;}
 .infoCon .newInfo ul li:nth-child(2):before{top: 50%;}
 .infoCon .newInfo ul li:nth-child(3):before{top: 70%;}
 .infoCon .newInfo ul li:nth-child(4):before{top: 90%;}
+ 
+/*footer*/
+footer{ width: 100%; background: #f7f7f7; margin-top: 45px; position: relative; height: 147px; padding-bottom: 85px;} 
+.footerCon{ width: 980px; height: 147px; margin: auto; position: relative;}
+.footerCon .tFooter{display: flex; padding: 25px 0 0 0; margin: 0}
+.footerCon .tFooter li:first-child{ margin: 0 5px 0 0;}
+.footerCon .tFooter li{margin: 0 5px 0 10px;  position: relative;}
+.footerCon .tFooter li:after{ position: absolute; width: 1px; height: 12px;  background: #959595;  content: ""; top: 0; margin-top: 7px; margin-left: 7.5px;}
+.footerCon .tFooter li:last-child:after{ display: none;}
+.footerCon .tFooter li a{font-size: 13px;}
+.footerCon .bFooter{ display: flex; margin: 0; padding: 0; margin-top: 10px;}
+.footerCon .bFooter li:first-child{margin: 0;}
+.footerCon .bFooter li{font-size: 13px; margin-left: 10px;}
+.footerCon .bFooter b{font-size: 14px; margin-left: 5px;}
+.footerCon .bFooter li:last-child{ color: #888888;}
+.footerCon .sIcon{ display: flex; position: absolute; bottom: 0; padding: 0; margin: 0;}
+.footerCon .sIcon li:first-child{margin: 0;}
+.footerCon .sIcon li{margin-left: 15px;}
+.footerCon > div{ position: absolute; bottom: 5px; right: 0; border: 1;}
+.footerCon > div select{ width: 167px; height: 28px; padding: 2px 2px 2px 5px; font-size: 12px; outline: none; background: #fff; box-sizing: border-box;}
