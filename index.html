@@ -48,17 +48,62 @@
         <div class="contentCon">
             <div class="eventBox">
                 <div class="con1">
-                    <ul>
-                        <li><a href="#"><img src="img/main_event_banner_143.png" alt=""></a></li>
-                        <li><a href="#"><img src="img/main_event_banner_31.png" alt=""></a></li>
-                        <li><a href="#"><img src="img/main_event_banner_152.png" alt=""></a></li>
-                        <li><a href="#"><img src="img/main_event_banner_156.png" alt=""></a></li>
-                        <li><a href="#"><img src="img/main_event_banner_158.png" alt=""></a></li>
+                    <ul class="slide">
+                        <li class="slideItem">
+                            <a href="#">
+                                <img src="img/main_event_banner_152.png" alt="">
+                                <div class="textBox">
+                                    <span>EVENT</span>
+                                    <h2>'내 사랑 전주'카드 출시기념<br>
+                                    연회비 100% 캐시백 이벤트</h2>
+                                    <p>이벤트 기간 내 온라인 채널에서 카드 발급하고<br> 연회비 100% 캐시백 받으세요!</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="slideItem">
+                            <a href="#">
+                                <img src="img/main_event_banner_156.png" alt="">
+                                <div class="textBox">
+                                    <span>EVENT</span>
+                                    <h2>JB카드는 자동이지(easy)!<br>
+                                    자동이체•간편결제 캐시백 이벤트</h2>
+                                    <p>알아서 혜택 챙겨주는 JB카드로 자동이체•간편결제<br> 등록하고 최대 7만원 캐시백 받으세요!</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="slideItem">
+                            <a href="#">
+                                <img src="img/main_event_banner_158.png" alt="">
+                                <div class="textBox">
+                                    <span>EVENT</span>
+                                    <h2>JB카드와 함께하는<br>
+                                    연말연시 집콕 외식생활</h2>
+                                    <p>배달앱에서 2만원 이상 4회 카드사용시 1만원<br> 캐시백 또는 청구할인</p>
+                                </div>
+                            </a>
+                        </li>
                     </ul>
+                    <div class="dots">
+                        <ul>
+                            <li class="dot" onclick="clickDot(0)"></li>
+                            <li class="dot" onclick="clickDot(1)" ></li>
+                            <li class="dot" onclick="clickDot(2)"></li>
+                        </ul>
+                        <div class="play">
+                            <div class="stop"><img src="img/stop.png" alt="일시정지"></div>
+                            <div class="start"><img src="img/start.png" alt="재생"></div>
+                        </div>
+                    </div>
                 </div>
                 <div class="con2">
                     <a href="#">
                         <img src="img/main_new_banner-09.png" alt="">
+                        <div class="textBox">
+                            <span>NEW</span>
+                            <h2>손쉬운 모임관리, JB모임통장</h2>
+                            <p>모임서비스와 다양한 우대혜택을<br>동시에 누리는 모임 전용 통장</p>
+                            <a href="#" class="view">자세히보기</a>
+                        </div>
                     </a>
                 </div>
             </div>
@@ -73,8 +118,14 @@
                     </ul>
                 </div>
                 <div class="con4">
-                    <h2>빠른서비스</h2>
-                    <ul>
+                    <div class="con4Top">
+                        <h2>빠른서비스</h2>
+                        <div class="change">
+                            <div class="left" onclick="changed(0)">예금<span></span></div>
+                            <div class="right" onclick="changed(1)">카드<span></span></div>
+                        </div>
+                    </div>
+                    <ul class="deposit">
                         <li><a href="#">잔액조회</a></li>
                         <li><a href="#">거래내역조회</a></li>
                         <li><a href="#">자기앞수표조회</a></li>
@@ -82,6 +133,18 @@
                         <li><a href="#">잔액증명발급내역조회</a></li>
                         <li><a href="#">지급보증서발급내역조회</a></li>
                         <li><a href="#">증명서원본검증</a></li>
+                    </ul>
+                    <ul class="card">
+                        <li><a href="#">이용대금명세서</a></li>
+                        <li><a href="#">승인내역조회</a></li>
+                        <li><a href="#">매입내역조회</a></li>
+                        <li><a href="#">할부내역조회</a></li>
+                        <li><a href="#">단기카드대출(현금서비스)</a></li>
+                        <li><a href="#">신용카드 소득공제</a></li>
+                        <li><a href="#">카드사용비밀번호등록</a></li>
+                        <li><a href="#">JB카드 교체발금</a></li>
+                        <li><a href="#">1st선택서비스조회/변경</a></li>
+                        <li><a href="#">학생증체크카드신청</a></li>
                     </ul>
                 </div>
             </div>
@@ -173,5 +236,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/slide.js"></script>
+    <script src="js/change.js"></script>
 </body>
 </html>
