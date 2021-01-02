@@ -41,7 +41,6 @@ function clickDot(clickIndex){
     curIndex = clickIndex;
     clickValue = true;
     clearTimeout(showSlide)
-    console.log(curIndex);
 }
 
 
@@ -69,7 +68,6 @@ function clickSlide(){
 }
 }
 function showSlide(){
-    console.log(curIndex);
 
     if(!playing){
         clearTimeout(showSlide)
