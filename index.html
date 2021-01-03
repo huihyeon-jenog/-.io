@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>전북은행</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
 </head>
 <body>
     <header>
@@ -153,32 +154,34 @@
     <section class="product">
         <div class="productCon">
             <h2>지금 뜨는 상품을 만나보세요</h2>
-            <ul>
-                <li><a href="#"><img src="img/main_slide02.png" alt="">
-                    <span>JB 마이플랜 통장
-                    <P>설정금액에 따라 하루만 맡겨도<br>높은 금리를 제공하는 입출금상품</P>
-                    </span></a></li>
-                <li><a href="#"><img src="img/main_slide03.png" alt="">
-                    <span>JB 마이플랜 적금
-                        <p>매일,매주,매월 수시로 저축하는<br>소액 재테크 상품</p>
-                    </span></a></li>
-                <li><a href="#"><img src="img/main_slide04.png" alt="">
-                    <span>JB 따뜻한 신용대출
-                        <p>저신용 고객님을 위한<br>중금리 신용대출 상품</p>
-                    </span></a></li>
-                <li><a href="#"><img src="img/main_slide05.png" alt="">
-                    <span>JB 주거래 예금
-                        <p>실적에 따라 우대금리를 받는<br>주거래고객 전용 상품</p>
-                    </span></a></li>
-                <li><a href="#"><img src="img/main_slide06.png" alt="">
-                    <span>JB 주거래적금(월복리형)
-                        <p>이자에 이자를 더하는<br>월복리 자유적금</p>
-                    </span></a></li>
-                <li><a href="#"><img src="img/main_slide07.png" alt="">
-                    <span>JB 사잇돌 중금리 대출
-                        <p>중신용 고객님을 위한<br>중금리 대출 상품</p>
-                    </span></a></li>
-            </ul>
+            <div class="slideCon2">
+                <ul class="slide2">
+                    <li class="slideItem2"><a href="#"><img src="img/main_slide02.png" alt="">
+                        <span>JB 마이플랜 통장
+                        <P>설정금액에 따라 하루만 맡겨도<br>높은 금리를 제공하는 입출금상품</P>
+                        </span></a></li>
+                    <li class="slideItem2"><a href="#"><img src="img/main_slide03.png" alt="">
+                        <span>JB 마이플랜 적금
+                            <p>매일,매주,매월 수시로 저축하는<br>소액 재테크 상품</p>
+                        </span></a></li>
+                    <li class="slideItem2" ><a href="#"><img src="img/main_slide04.png" alt="">
+                        <span>JB 따뜻한 신용대출
+                            <p>저신용 고객님을 위한<br>중금리 신용대출 상품</p>
+                        </span></a></li>
+                    <li class="slideItem2"><a href="#"><img src="img/main_slide05.png" alt="">
+                        <span>JB 주거래 예금
+                            <p>실적에 따라 우대금리를 받는<br>주거래고객 전용 상품</p>
+                        </span></a></li>
+                    <li class="slideItem2"><a href="#"><img src="img/main_slide06.png" alt="">
+                        <span>JB 주거래적금(월복리형)
+                            <p>이자에 이자를 더하는<br>월복리 자유적금</p>
+                        </span></a></li>
+                    <li class="slideItem2"><a href="#"><img src="img/main_slide07.png" alt="">
+                        <span>JB 사잇돌 중금리 대출
+                            <p>중신용 고객님을 위한<br>중금리 대출 상품</p>
+                        </span></a></li>
+                </ul>
+            </div>
         </div>
     </section>
     <section class="info">
@@ -193,6 +196,7 @@
             </div>
             <div class="newInfo">
                 <h2>JB 새소식</h2>
+                <span class="more"><a href="#">더보기&#62;</a></span>
                 <ul>
                     <li><a href="#">비과세종합저축 특약 개정 안내</a></li>
                     <li><a href="#">신용카드 법인회원 연회비 부과 등에 관한 표준약관</a></li>
@@ -215,6 +219,7 @@
                 <li><a href="#"><span class="line"></span>고객센터</a></li>
                 <li><a href="#">은행소개</a></li>
             </ul>
+            <button class="goTop"><img src="img/bottom_top.png" alt="상단으로가기" onclick="goTop()"></button>
             <ul class="bFooter">
                 <li>고객센터 <b>000-0000</b></li>
                 <li>비대면 신용대출 <b>0000-0000</b></li>
@@ -236,7 +241,10 @@
             </div>
         </div>
     </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/slide.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/change.js"></script>
 </body>
 </html>

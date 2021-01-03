@@ -16,7 +16,6 @@ let clickValue = false;
 
 slideList.style.width = slidewidth * (slideLen) + "px";
 
-
 pause.addEventListener("click",function(){
     pause.style.display = "none";
     play.style.display = "block";
@@ -42,8 +41,6 @@ function clickDot(clickIndex){
     clickValue = true;
     clearTimeout(showSlide)
 }
-
-
 
 function clickSlide(){
     if(!playing){
